@@ -1,0 +1,126 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ProjetoEcommerce.Domain.Entities;
+using ProjetoEcommerce.Domain.ValueObject;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ProjetoEcommerce.Domain.Tests.Entities
+{
+    [TestClass]
+    public class UsuarioTests
+    {
+        private Cpf Cpf { get; set; }
+        private Email Email { get; set; }
+        private string Login { get; set; }
+        private string Senha { get; set; }
+        private string SenhaConfirmacao { get; set; }
+
+        public UsuarioTests()
+        {
+            Cpf = new Cpf("11111111111");
+            Email = new Email("lamarca.kairo@gamil.com");
+            Login = "admin";
+            Senha = "123456";
+            SenhaConfirmacao = "123456";
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_New_Cpf_Obrigatorio()
+        {
+            new Usuario(Login, null, Email, Senha, SenhaConfirmacao);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_New_Login_Obrigatorio()
+        {
+            new Usuario("", Cpf, Email, Senha, SenhaConfirmacao);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_New_Email_Obrigatorio()
+        {
+            new Usuario(Login, Cpf, null, Senha, SenhaConfirmacao);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_New_Senha_Obrigatorio()
+        {
+            new Usuario(Login, Cpf, Email, "", SenhaConfirmacao);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_New_SenhaConfirmacao_Obrigatorio()
+        {
+            new Usuario(Login, Cpf, Email, Senha, "");
+        }
+
+        //[TestMethod]
+        //public void Usuario_New_Cpf()
+        //{
+        //    Assert.AreEqual(Cpf, Usuario.Cpf);
+        //}
+
+        //[TestMethod]
+        //public void Usuario_New_Login()
+        //{
+        //    Assert.AreEqual(Login, Usuario.Login);
+        //}
+
+        //[TestMethod]
+        //public void Usuario_New_Email()
+        //{
+        //    Assert.AreEqual(Email, Usuario.Email);
+        //}
+
+        //[TestMethod]
+        //public void Usuario_New_Senha()
+        //{
+        //    Assert.IsNotNull(Usuario.Senha);
+        //}
+
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception))]
+        //public void Usuario_SetLogin_Min_Value()
+        //{
+        //    Usuario.SetLogin("12345");
+        //}
+
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception))]
+        //public void Usuario_SetLogin_Max_Value()
+        //{
+        //    Usuario.SetLogin("1234567890123456789012345678901");
+        //}
+
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception))]
+        //public void Usuario_SetSenha_Min_Value()
+        //{
+        //    var senha = "12345";
+        //    new Usuario(Login, Cpf, Email, senha, senha);
+        //}
+
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception))]
+        //public void Usuario_SetSenha_Max_Value()
+        //{
+        //    var senha = "1234567890123456789012345678901";
+        //    new Usuario(Login, Cpf, Email, senha, senha);
+        //}
+
+        //[TestMethod]
+        //[ExpectedException(typeof(Exception))]
+        //public void Usuario_SetSenha_Senhas_Nao_Conferem()
+        //{
+        //    new Usuario(Login, Cpf, Email, "testeteste", "blablablabla");
+        //}
+    }
+}
