@@ -1,0 +1,11 @@
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.StartUp.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.StartUp.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.App.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Domain.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Repositories.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.App.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Domain.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Repositories.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.csprojResolveAssemblyReference.cache
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.pdb

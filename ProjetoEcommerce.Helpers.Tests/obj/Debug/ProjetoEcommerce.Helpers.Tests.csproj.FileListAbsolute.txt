@@ -1,0 +1,9 @@
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\ProjetoEcommerce.Helpers.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\ProjetoEcommerce.Helpers.Tests.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\ProjetoEcommerce.Helpers.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\ProjetoEcommerce.Helpers.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\obj\Debug\ProjetoEcommerce.Helpers.Tests.csprojResolveAssemblyReference.cache
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\obj\Debug\ProjetoEcommerce.Helpers.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers.Tests\obj\Debug\ProjetoEcommerce.Helpers.Tests.pdb

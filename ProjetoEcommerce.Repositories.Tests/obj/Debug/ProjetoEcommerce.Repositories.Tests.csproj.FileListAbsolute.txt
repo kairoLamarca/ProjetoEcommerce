@@ -1,0 +1,5 @@
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Repositories.Tests\bin\Debug\ProjetoEcommerce.Repositories.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Repositories.Tests\bin\Debug\ProjetoEcommerce.Repositories.Tests.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Repositories.Tests\obj\Debug\ProjetoEcommerce.Repositories.Tests.csprojResolveAssemblyReference.cache
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Repositories.Tests\obj\Debug\ProjetoEcommerce.Repositories.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Repositories.Tests\obj\Debug\ProjetoEcommerce.Repositories.Tests.pdb

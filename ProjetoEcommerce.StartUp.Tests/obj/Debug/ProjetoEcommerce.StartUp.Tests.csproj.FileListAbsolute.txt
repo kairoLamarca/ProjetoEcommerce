@@ -1,0 +1,4 @@
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp.Tests\bin\Debug\ProjetoEcommerce.StartUp.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp.Tests\bin\Debug\ProjetoEcommerce.StartUp.Tests.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp.Tests\obj\Debug\ProjetoEcommerce.StartUp.Tests.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp.Tests\obj\Debug\ProjetoEcommerce.StartUp.Tests.pdb
