@@ -9,3 +9,5 @@ D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.csprojResolveAssemblyReference.cache
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.dll
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\obj\Debug\ProjetoEcommerce.StartUp.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Helpers.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.StartUp\bin\Debug\ProjetoEcommerce.Helpers.pdb

@@ -2,3 +2,10 @@ D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcom
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcommerce.Domain.Tests.pdb
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\obj\Debug\ProjetoEcommerce.Domain.Tests.dll
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\obj\Debug\ProjetoEcommerce.Domain.Tests.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcommerce.Domain.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcommerce.Domain.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\obj\Debug\ProjetoEcommerce.Domain.Tests.csprojResolveAssemblyReference.cache
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcommerce.Helpers.dll
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Domain.Tests\bin\Debug\ProjetoEcommerce.Helpers.pdb
