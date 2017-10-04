@@ -2,3 +2,4 @@ D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers\bin\Debug\ProjetoEcommerce
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers\bin\Debug\ProjetoEcommerce.Helpers.pdb
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers\obj\Debug\ProjetoEcommerce.Helpers.dll
 D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers\obj\Debug\ProjetoEcommerce.Helpers.pdb
+D:\Projetos\ProjetoEcommerce\ProjetoEcommerce.Helpers\obj\Debug\ProjetoEcommerce.Helpers.csprojResolveAssemblyReference.cache

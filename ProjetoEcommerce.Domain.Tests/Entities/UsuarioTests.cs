@@ -15,16 +15,20 @@ namespace ProjetoEcommerce.Domain.Tests.Entities
         private Cpf Cpf { get; set; }
         private Email Email { get; set; }
         private string Login { get; set; }
+
         private string Senha { get; set; }
         private string SenhaConfirmacao { get; set; }
+        private Usuario Usuario { get; set; }
 
         public UsuarioTests()
         {
             Cpf = new Cpf("11111111111");
             Email = new Email("lamarca.kairo@gamil.com");
-            Login = "admin";
+            Login = "adminteste";
             Senha = "123456";
             SenhaConfirmacao = "123456";
+
+            Usuario = new Usuario(Login, Cpf, Email, Senha, SenhaConfirmacao);
         }
 
         [TestMethod]
@@ -62,59 +66,59 @@ namespace ProjetoEcommerce.Domain.Tests.Entities
             new Usuario(Login, Cpf, Email, Senha, "");
         }
 
-        //[TestMethod]
-        //public void Usuario_New_Cpf()
-        //{
-        //    Assert.AreEqual(Cpf, Usuario.Cpf);
-        //}
+        [TestMethod]
+        public void Usuario_New_Cpf()
+        {
+            Assert.AreEqual(Cpf, Usuario.Cpf);
+        }
 
-        //[TestMethod]
-        //public void Usuario_New_Login()
-        //{
-        //    Assert.AreEqual(Login, Usuario.Login);
-        //}
+        [TestMethod]
+        public void Usuario_New_Login()
+        {
+            Assert.AreEqual(Login, Usuario.Login);
+        }
 
-        //[TestMethod]
-        //public void Usuario_New_Email()
-        //{
-        //    Assert.AreEqual(Email, Usuario.Email);
-        //}
+        [TestMethod]
+        public void Usuario_New_Email()
+        {
+            Assert.AreEqual(Email, Usuario.Email);
+        }
 
-        //[TestMethod]
-        //public void Usuario_New_Senha()
-        //{
-        //    Assert.IsNotNull(Usuario.Senha);
-        //}
+        [TestMethod]
+        public void Usuario_New_Senha()
+        {
+            Assert.IsNotNull(Usuario.Senha);
+        }
 
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void Usuario_SetLogin_Min_Value()
-        //{
-        //    Usuario.SetLogin("12345");
-        //}
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_SetLogin_Min_Value()
+        {
+            Usuario.SetLogin("12345");
+        }
 
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void Usuario_SetLogin_Max_Value()
-        //{
-        //    Usuario.SetLogin("1234567890123456789012345678901");
-        //}
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_SetLogin_Max_Value()
+        {
+            Usuario.SetLogin("1234567890123456789012345678901");
+        }
 
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void Usuario_SetSenha_Min_Value()
-        //{
-        //    var senha = "12345";
-        //    new Usuario(Login, Cpf, Email, senha, senha);
-        //}
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_SetSenha_Min_Value()
+        {
+            var senha = "12345";
+            new Usuario(Login, Cpf, Email, senha, senha);
+        }
 
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void Usuario_SetSenha_Max_Value()
-        //{
-        //    var senha = "1234567890123456789012345678901";
-        //    new Usuario(Login, Cpf, Email, senha, senha);
-        //}
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_SetSenha_Max_Value()
+        {
+            var senha = "1234567890123456789012345678901";
+            new Usuario(Login, Cpf, Email, senha, senha);
+        }
 
         //[TestMethod]
         //[ExpectedException(typeof(Exception))]
