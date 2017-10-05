@@ -49,6 +49,7 @@
     <Compile Include="ValueObject\Cpf.cs" />
     <Compile Include="ValueObject\Email.cs" />
     <Compile Include="ValueObject\Endereco.cs" />
+    <Compile Include="ValueObject\Exemplo.cs" />
     <Compile Include="ValueObject\Telefone.cs" />
   </ItemGroup>
   <ItemGroup>
