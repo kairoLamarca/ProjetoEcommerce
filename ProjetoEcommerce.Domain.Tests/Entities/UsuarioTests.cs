@@ -120,11 +120,11 @@ namespace ProjetoEcommerce.Domain.Tests.Entities
             new Usuario(Login, Cpf, Email, senha, senha);
         }
 
-        //[TestMethod]
-        //[ExpectedException(typeof(Exception))]
-        //public void Usuario_SetSenha_Senhas_Nao_Conferem()
-        //{
-        //    new Usuario(Login, Cpf, Email, "testeteste", "blablablabla");
-        //}
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void Usuario_SetSenha_Senhas_Nao_Conferem()
+        {
+            new Usuario(Login, Cpf, Email, "testeteste", "blablablabla");
+        }
     }
 }

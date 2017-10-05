@@ -65,7 +65,7 @@ namespace ProjetoEcommerce.Domain.Entities
             Guard.ForNullOrEmptyDefaultMessage(senha, "Senha");
             Guard.ForNullOrEmptyDefaultMessage(senhaConfirmacao, "Confirmação de Senha");
             Guard.StringLength("Senha", senha, SenhaMinValue, SenhaMaxValue);
-            //Guard.AreEqual(senha, senhaConfirmacao, "As senhas não conferem!");
+            Guard.AreEqual(senha, senhaConfirmacao, "As senhas não conferem!");
 
             Senha = CriptografiaHelper.CriptografarSenha(senha);
         }
